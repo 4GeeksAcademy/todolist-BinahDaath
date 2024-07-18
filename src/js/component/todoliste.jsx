@@ -26,7 +26,7 @@ export function TodoList() {
   };
 
   return (
-    <div>
+    <div >
       <div className="text-9xl text-center text-red-400">todos</div>
       <div className="flex flex-row justify-center">
     <div className="size-2/3">
