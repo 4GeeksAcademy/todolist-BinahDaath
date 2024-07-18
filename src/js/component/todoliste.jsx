@@ -27,8 +27,11 @@ export function TodoList() {
 
   return (
     <div>
+      <div className="text-9xl text-center text-red-400">todos</div>
+      <div className="flex flex-row justify-center">
+    <div className="size-2/3">
       <input
-        className="border"
+        className="border size-full"
         value={task}
         onChange={handleChangeTask}
         onKeyDown={handleEnter}
@@ -55,6 +58,8 @@ export function TodoList() {
           <span>No tasks, add a task</span>
         )}
       </div>
+    </div>
+    </div>
     </div>
   );
 }
